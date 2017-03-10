@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E461C32E1E45ADD200E1AA97 /* RuntimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E461C32D1E45ADD200E1AA97 /* RuntimeTool.m */; };
 		E4FAD9EC1E4462B80092DE2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FAD9EB1E4462B80092DE2A /* main.m */; };
 		E4FAD9EF1E4462B80092DE2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FAD9EE1E4462B80092DE2A /* AppDelegate.m */; };
 		E4FAD9F21E4462B80092DE2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FAD9F11E4462B80092DE2A /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		E4FAD9FA1E4462B80092DE2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4FAD9F81E4462B80092DE2A /* LaunchScreen.storyboard */; };
 		E4FADA051E4462B80092DE2A /* RunTimeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FADA041E4462B80092DE2A /* RunTimeDemoTests.m */; };
 		E4FADA101E4462B80092DE2A /* RunTimeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FADA0F1E4462B80092DE2A /* RunTimeDemoUITests.m */; };
+		E4FADA1F1E446E940092DE2A /* UIViewController+WYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FADA1E1E446E940092DE2A /* UIViewController+WYKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E461C32C1E45ADD200E1AA97 /* RuntimeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeTool.h; sourceTree = "<group>"; };
+		E461C32D1E45ADD200E1AA97 /* RuntimeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeTool.m; sourceTree = "<group>"; };
 		E4FAD9E71E4462B80092DE2A /* RunTimeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunTimeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4FAD9EB1E4462B80092DE2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4FAD9ED1E4462B80092DE2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		E4FADA0B1E4462B80092DE2A /* RunTimeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunTimeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4FADA0F1E4462B80092DE2A /* RunTimeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunTimeDemoUITests.m; sourceTree = "<group>"; };
 		E4FADA111E4462B80092DE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4FADA1D1E446E940092DE2A /* UIViewController+WYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WYKit.h"; sourceTree = "<group>"; };
+		E4FADA1E1E446E940092DE2A /* UIViewController+WYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WYKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				E4FAD9EE1E4462B80092DE2A /* AppDelegate.m */,
 				E4FAD9F01E4462B80092DE2A /* ViewController.h */,
 				E4FAD9F11E4462B80092DE2A /* ViewController.m */,
+				E461C32C1E45ADD200E1AA97 /* RuntimeTool.h */,
+				E461C32D1E45ADD200E1AA97 /* RuntimeTool.m */,
+				E4FADA1D1E446E940092DE2A /* UIViewController+WYKit.h */,
+				E4FADA1E1E446E940092DE2A /* UIViewController+WYKit.m */,
 				E4FAD9F31E4462B80092DE2A /* Main.storyboard */,
 				E4FAD9F61E4462B80092DE2A /* Assets.xcassets */,
 				E4FAD9F81E4462B80092DE2A /* LaunchScreen.storyboard */,
@@ -279,6 +289,8 @@
 				E4FAD9F21E4462B80092DE2A /* ViewController.m in Sources */,
 				E4FAD9EF1E4462B80092DE2A /* AppDelegate.m in Sources */,
 				E4FAD9EC1E4462B80092DE2A /* main.m in Sources */,
+				E4FADA1F1E446E940092DE2A /* UIViewController+WYKit.m in Sources */,
+				E461C32E1E45ADD200E1AA97 /* RuntimeTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +528,7 @@
 				E4FADA161E4462B80092DE2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4FADA171E4462B80092DE2A /* Build configuration list for PBXNativeTarget "RunTimeDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +537,7 @@
 				E4FADA191E4462B80092DE2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4FADA1A1E4462B80092DE2A /* Build configuration list for PBXNativeTarget "RunTimeDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +546,7 @@
 				E4FADA1C1E4462B80092DE2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

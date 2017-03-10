@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIViewController+WYKit.h
 //  RunTimeDemo
 //
 //  Created by yons on 17/2/3.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface UIViewController (WYKit)
 
 @end
-
